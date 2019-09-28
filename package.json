@@ -1,0 +1,16 @@
+{
+  "name": "fp-avantgarde",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crocks": "^0.12.3",
+    "ramda": "^0.26.1"
+  }
+}
