@@ -4,7 +4,8 @@ const { pipe } = require("ramda");
 function decode(numbers) {
   const fromCharCode = number => String.fromCharCode(number);
   const chars = numbers.map(fromCharCode);
-  return "HELLO " + chars + " FRIENDS";
+  const code = chars.join('');
+  return "HELLO " + code + " FRIENDS";
 }
 
 // Pointfree refactor
@@ -20,3 +21,5 @@ const decode2 = pipe(
   concat("HELLO "),
   prepend(" FRIENDS")
 );
+
+decode2([65, 86, 65, 78, 84, 71, 65, 82, 68, 69])

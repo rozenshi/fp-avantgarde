@@ -1,4 +1,4 @@
-const { lensPath, multiply, add, compose } = require("ramda");
+const { lensPath, compose } = require("ramda");
 
 const data = {
   employees: {

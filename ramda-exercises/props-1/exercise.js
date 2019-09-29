@@ -1,5 +1,5 @@
 const R = require("ramda");
-const { prop, assoc, pipe, __, converge, identity } = R;
+const { prop, assoc, pipe } = R;
 
 const person = {
   name: "George",

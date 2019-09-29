@@ -23,6 +23,7 @@ const sort = comparator => list => list.sort(comparator);
 const head = list => list[0];
 const prop = propName => obj => obj[propName];
 
+// Pointfree version
 const getTopName4 = pipe(
   sort(compareByScore),
   head,

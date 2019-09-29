@@ -11,3 +11,5 @@ function decode(numbers) {
   let result = acum.join("");
   return "HELLO " + result + " FRIENDS";
 }
+
+decode([65, 86, 65, 78, 84, 71, 65, 82, 68, 69])

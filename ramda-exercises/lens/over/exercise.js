@@ -1,4 +1,4 @@
-const { lensPath, evolve, over, multiply, add, compose } = require("ramda");
+const { lensProp, over } = require("ramda");
 
 const x = {
   employees: {
@@ -36,12 +36,6 @@ const x = {
       }
     }
   }
-};
-
-const lensIncomes = lensPath(["incomes", "currentYear"]);
-const increments = {
-  mensual: multiply(2),
-  extra: add(100)
 };
 
 /**

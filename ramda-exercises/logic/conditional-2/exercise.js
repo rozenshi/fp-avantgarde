@@ -1,5 +1,5 @@
 const R = require('ramda');
-const { pipe } = R;
+const { pipe, lt, when, unless } = R;
 
 /**
  * Check if string, work with empty one as default

@@ -1,6 +1,6 @@
 const { lensPath, evolve, over, multiply, add, compose } = require("ramda");
 
-const x = {
+const data = {
   employees: {
     bestEmployee: {
       name: "Lucas",
