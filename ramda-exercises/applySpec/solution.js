@@ -78,10 +78,10 @@ const spec = {
 /**
  * Create a new object containing total number of movies and actors
  * @example
- * {
- *   totalMovies: (total number of movies),
- *   actors: (list of actors, not repeated)
- * }
+ * // {
+ * //   totalMovies: (total number of movies),
+ * //   actors: (list of actors, not repeated)
+ * // }
  * deriveMovies(data)
  */
 const deriveMovies = applySpec(spec);
